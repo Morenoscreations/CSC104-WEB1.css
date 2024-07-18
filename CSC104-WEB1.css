@@ -1,0 +1,48 @@
+h1 {
+
+  padding: 14px 16px;
+  text-align: center;
+}
+
+ /* top intro artical */
+
+h2 {
+ font-size: medium;
+ 
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding-top: 0ch;
+ margin-inline-start: 17ch;
+ margin-inline-end: 15ch;
+ text-align: center;
+
+}
+
+/*help from bing */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+body {
+  height: 3000px; /* Used to enable scrolling */
+  background: linear-gradient(55deg, #ff006f 0%, #ff92e4 51%, #ffd2f6 85%);
+}
+
